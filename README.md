@@ -32,6 +32,10 @@
 
 ![image](https://github.com/richarddddd198/Lumbar-spondylolisthesis-grading/blob/main/result.png)
 
+### 文件结构
+--main.ipynb代码文件
+--result.png最终结果图
+
 ### 使用方式
 在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/2207771)
 
