@@ -1,6 +1,5 @@
 # 腰椎辅助诊断系统之滑脱定位并分级(基于paddleseg)
 ### 背景
-来源百度百科：
 
 #### 【什么是滑脱】
 
@@ -31,4 +30,4 @@
 
 推理过程是基于诊断腰椎滑脱Meyerding标准。推理结果基本是符合腰椎滑脱的影像诊断要求。
 
-![](https://ai-studio-static-online.cdn.bcebos.com/b5503152df254138963c9478e5046c36172696a0b23a4be4974f306793302194)
+![](https://github.com/richarddddd198/Lumbar-spondylolisthesis-grading/blob/main/result.png)
