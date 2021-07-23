@@ -31,3 +31,6 @@
 推理过程是基于诊断腰椎滑脱Meyerding标准。推理结果基本是符合腰椎滑脱的影像诊断要求。
 
 ![image](https://github.com/richarddddd198/Lumbar-spondylolisthesis-grading/blob/main/result.png)
+
+### 使用方式
+在AI Studio上![运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/2207771)
