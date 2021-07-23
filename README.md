@@ -24,7 +24,7 @@
 #### 【项目的目的】
 
 腰椎的MR检查是一种无创检查。对腰椎的软组织、椎间盘、脊髓等组织的观察有优势。目前想通过腰椎MR检查的图像结合人工智能进行多种腰椎疾病辅助诊断，减少医生的负担。因为腰椎滑脱是一种常见的腰椎疾病，所有这个项目通过分割来解决腰椎滑脱分级这个问题。
-![](https://ai-studio-static-online.cdn.bcebos.com/136bda7fb27e4f70a64aef1229ce60f0c65b286b28fe48abad8e47c495e84de0)
+![image](https://github.com/richarddddd198/Lumbar-spondylolisthesis-grading/blob/main/1.png)
 
 #### 【项目最终分级结果】
 
