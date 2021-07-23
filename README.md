@@ -1,32 +1,34 @@
-# Python代码仓库模板
+# 腰椎辅助诊断系统之滑脱定位并分级(基于paddleseg)
+### 背景
+来源百度百科：
 
-![GitHub forks](https://img.shields.io/github/forks/GT-ZhangAcer/PythonRepository-Template?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/GT-ZhangAcer/PythonRepository-Template?style=for-the-badge) 
+#### 【什么是滑脱】
 
-这是一个简单的迁移模板，使用者只需在[模板仓库](https://github.com/GT-ZhangAcer/PythonRepository-Template)中点击[use this template](https://github.com/GT-ZhangAcer/PythonRepository-Template/generate)即可创建属于自己的具备前端页面空白Paddle项目。
+腰椎滑脱 是由于先天性发育不良、创伤、劳损等原因造成相邻椎体骨性连接异常而发生的上位椎体与下位椎体部分或全部滑移，表现为腰骶部疼痛、坐骨神经受累、间歇性跛行等症状的疾病。
 
+在所有的腰椎滑脱中，由峡部崩裂引起的滑脱约占15%，退行性腰椎滑脱约占35%。在我国腰椎滑脱的发病年龄多在20~50岁，占85%；男性明显多于女性，男女之比为 29：1。腰椎滑脱最常见的部位是 L4~L5 及 L5~S1，其中腰5椎体发生率为82~90% 。滑脱的椎体可引起或加重椎管狭窄，刺激或挤压神经，引起腰痛、下肢痛、下肢麻木、甚至大小便功能障碍等症状。另外，滑脱后腰背肌的保护性收缩可引起腰背肌劳损，产生腰背痛。
 
-## 项目结构
+可以通过X光检查、CT检查、MR检查进行诊断。以腰椎的侧位方向观察为佳。
 
-### Main分支（Default）
-该分支为主要的开发分支，与项目有关的说明和代码文件可放置于此，在仓库被访问时默认展示该分支。
-```
--|
---LICENSE   开源协议文件，默认为MIT开源协议。
---README.md 项目说明文件，可使用Markdowm编辑器进行编辑。
---requirements.txt Python项目依赖列表
-```  
-### gh-pages分支
-该分支下默认会给出静态页面文件，在使用该模板后将自动生成一个项目介绍网页`https://GitHub昵称.github.io/项目名`，我们只需对该分支下的`index.md`文件进行修改即可操控这个页面。
+#### 【滑脱的分级】
 
-## 使用方法
+国内常用的是 Meyerding 分级，即将下位椎体上缘分为 4 等份，根据椎体相对下位椎 体向前滑移的程度分为 I－IV 度。(如下图)
 
-### Step1 使用模板仓库创建一个新的个人仓库
-进入[模板仓库]()主页，获取最新模板或点击[此处](https://github.com/GT-ZhangAcer/PythonRepository-Template/generate)立即创建一个这样的特殊仓库。
-<img src="https://ai-studio-static-online.cdn.bcebos.com/77a8ffd9cd9b4953a39f609bb2b0a4903bc046f354944d5d9ee776676f580095" width="800px">  
-简单填写仓库信息  
-<img src="https://ai-studio-static-online.cdn.bcebos.com/e42d4a7b3a064e788b0761570b19b27e18f19a9eeba44c21abf22d7270e38fda" width="800px">
+Ⅰ：指椎体向前滑动不超过椎体中部矢状径的 1/4 者。
 
-### Step2 上传项目文件至个人仓库
-<img src="https://ai-studio-static-online.cdn.bcebos.com/81ed71bc5ab74d01ab3ed244b987a08b7f3664baecf4475f8c337a2cbfcb04e5" width="800px">  
-<img src="https://ai-studio-static-online.cdn.bcebos.com/069da53af0ca4cbe8f2de962d2cd3e2d6dbbba9e44d9411bb0bd8dda8a7c1b52" width="800px"> 
+Ⅱ ：超过 1/4，但不超过 2/4 者。
 
+Ⅲ ：超过 2/4，但不超过 3/4 者。
+
+Ⅳ ：超过椎体矢状径的 3/4 者。
+ 
+#### 【项目的目的】
+
+腰椎的MR检查是一种无创检查。对腰椎的软组织、椎间盘、脊髓等组织的观察有优势。目前想通过腰椎MR检查的图像结合人工智能进行多种腰椎疾病辅助诊断，减少医生的负担。因为腰椎滑脱是一种常见的腰椎疾病，所有这个项目通过分割来解决腰椎滑脱分级这个问题。
+![](https://ai-studio-static-online.cdn.bcebos.com/136bda7fb27e4f70a64aef1229ce60f0c65b286b28fe48abad8e47c495e84de0)
+
+#### 【项目最终分级结果】
+
+推理过程是基于诊断腰椎滑脱Meyerding标准。推理结果基本是符合腰椎滑脱的影像诊断要求。
+
+![](https://ai-studio-static-online.cdn.bcebos.com/b5503152df254138963c9478e5046c36172696a0b23a4be4974f306793302194)
