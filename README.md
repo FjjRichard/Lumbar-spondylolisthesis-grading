@@ -33,4 +33,6 @@
 ![image](https://github.com/richarddddd198/Lumbar-spondylolisthesis-grading/blob/main/result.png)
 
 ### 使用方式
-在AI Studio上![运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/2207771)
+在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/2207771)
+
+项目地址：https://aistudio.baidu.com/aistudio/projectdetail/2207771
